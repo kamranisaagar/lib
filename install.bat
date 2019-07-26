@@ -12,6 +12,7 @@ set CD=C:\merchantpulse
 set CLASSPATH=.
 set CLASSPATH=%CLASSPATH%;%CD%\lib\*.jar
 
+cd %CD%\lib
 
 nssm install MpulseJob "%JAVA_HOME%"  -cp "%CLASSPATH%" -jar -Dconfig.home="c:/merchantpulse" "%CD%"\lib\MerchantPulseScripts-1.0-SNAPSHOT.jar
 nssm start MpulseJob
