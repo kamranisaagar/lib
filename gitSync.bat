@@ -1,3 +1,5 @@
+cd C:/merchantpulse/lib
+
 net stop MpulseJob
 
 echo "Syncing with Git"
