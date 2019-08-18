@@ -21,4 +21,5 @@ default.category.id=DefaultCategory
 #Please change timestamp below, format to be kept same
 last.close.cash=2019-07-26T19:04:13.241
 last.void.lines=2019-07-26T19:04:13.241
+last.register.opens=2019-07-26T19:04:13.241
 trans.batch.size=100
